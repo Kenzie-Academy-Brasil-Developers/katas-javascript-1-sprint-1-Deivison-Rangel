@@ -7,7 +7,7 @@ function oneThroughTwenty() {
   } 
   return lista
 }
-console.log(oneThroughTwenty())  
+//console.log(oneThroughTwenty())  
 
 
 function evensToTwenty() {
@@ -19,7 +19,7 @@ function evensToTwenty() {
     }
     return lista2
 }
-console.log(evensToTwenty())
+//console.log(evensToTwenty())
 
 
 function oddsToTwenty() {
@@ -31,7 +31,7 @@ function oddsToTwenty() {
   }
   return lista3
 }
-console.log(oddsToTwenty())
+//console.log(oddsToTwenty())
 
 
 function multiplesOfFive() {
@@ -42,7 +42,7 @@ function multiplesOfFive() {
     }
     return lista5
 }
-console.log(multiplesOfFive())
+//console.log(multiplesOfFive())
 
 
 function squareNumbers() {
@@ -55,7 +55,7 @@ function squareNumbers() {
   }
   return resultado
 }
-console.log(squareNumbers())
+//console.log(squareNumbers())
 
 
 function countingBackwards() {
@@ -67,11 +67,11 @@ let contar = 21
   }   
   return lista
 }
-console.log(countingBackwards())
+//console.log(countingBackwards())
 
 
 function evenNumbersBackwards() {
-  let contar2 = 22
+  let contar2 = 21
   let lista2=[]
   while(contar2>1){
     contar2-=2
@@ -79,11 +79,11 @@ function evenNumbersBackwards() {
   }
   return lista2
 }
-console.log(evenNumbersBackwards())
+//console.log(evenNumbersBackwards())
 
 
 function oddNumbersBackwards(){
-  let contar3 = 19
+  let contar3 = 20
   let lista3=[]
   while(contar3>1){
     lista3.push(contar3)
@@ -91,7 +91,7 @@ function oddNumbersBackwards(){
   }
   return lista3
 }
-console.log(oddNumbersBackwards())
+//console.log(oddNumbersBackwards())
 
 
 function multiplesOfFiveBackwards(){
@@ -102,7 +102,7 @@ function multiplesOfFiveBackwards(){
   }
   return lista5
 }
-console.log(multiplesOfFiveBackwards())
+//console.log(multiplesOfFiveBackwards())
 
 
 
@@ -116,4 +116,4 @@ function squareNumbersBackwards(){
   }
   return resultado
 }
-console.log(squareNumbersBackwards())
+//console.log(squareNumbersBackwards())
